@@ -24,6 +24,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
+  <script src="csi.min.js"></script>
 
   <!-- =======================================================
   * Template Name: MyPortfolio - v4.7.0
@@ -35,43 +37,7 @@
 
 <body>
 
-  <!-- ======= Navbar ======= -->
-  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Me</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="tweet d-flex">
-            <div>
-              <p><em> Welcome to my portfolio! <br> </em></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Marisa Cantor</h3>
-          <p>Student digital artist <br> <a href="#">marisacantor2@gmail.com</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Marisa Cantor</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
-        <span></span>
-      </a>
-    </div>
-  </nav>
-  <!-- end navbar -->
+  <div data-include="navbar.html"></div>
 
   <main id="main">
 
@@ -86,25 +52,30 @@
           <!-- subheads (all, illust, concept, etc)-->
           <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
             <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Illustrations</a>
-              <a href="#" data-filter=".design">Concept Art</a>
-              <a href="#" data-filter=".branding">Studies</a>
-              <a href="#" data-filter=".photography">ItNoR</a>
+              <!-- <a href="#" data-filter="*" class="active">All</a> -->
+              <!-- <a href="#" data-filter="*" class="active">All</a> -->
+              <!-- <a href="#" data-filter=".web">Illustrations</a> -->
+              <a href="illustrations.html">Illustrations</a>
+              <!-- <a href="#" data-filter=".design">Concept Art</a> -->
+              <a href="conceptart.html">Concept Art</a>
+              <!-- <a href="#" data-filter=".branding">Studies</a> -->
+              <a href="studies.html">Studies</a>
+              <!-- <a href="#" data-filter=".photography">ItNoR</a> -->
+              <a href="school art.html">ItNoR</a>
             </div>
           </div>
-        </div>
+        </div>  
 
         <!-- illustrations box-->
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
           <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="illustrations.html" class="item-wrap fancybox">
+            <!-- <a href="illustrations.html" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Illustrations</h3>
                 <span>See more</span>
-              </div>
+              </div> -->
               <img class="img-fluid" src="assets/img/hutao_placeholder.png">
-            </a>
+            <!-- </a> -->
           </div>
 
           <!-- concept art box -->
