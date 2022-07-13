@@ -62,7 +62,7 @@
       let portfolioFilters = select('#filters a', true);
 
       on('click', '#filters a', function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         // portfolioFilters.forEach(function(el) {
         //   el.classList.remove('active');
         // });
