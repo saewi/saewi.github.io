@@ -53,6 +53,7 @@
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('#portfolio-grid');
+    // console.log(portfolioContainer)
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.item',
@@ -61,11 +62,11 @@
       let portfolioFilters = select('#filters a', true);
 
       on('click', '#filters a', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('active');
-        });
-        this.classList.add('active');
+        // e.preventDefault();
+        // portfolioFilters.forEach(function(el) {
+        //   el.classList.remove('active');
+        // });
+        // this.classList.add('active');
 
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')

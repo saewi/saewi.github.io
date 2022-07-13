@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -24,6 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="csi.min.js"></script>
 
   <!-- =======================================================
   * Template Name: MyPortfolio - v4.7.0
@@ -35,43 +39,7 @@
 
 <body>
 
-  <!-- ======= Navbar ======= -->
-  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Me</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="tweet d-flex">
-            <div>
-              <p><em> Welcome to my portfolio! <br> </em></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Marisa Cantor</h3>
-          <p>Student digital artist <br> <a href="#">marisacantor2@gmail.com</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Marisa Cantor</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
-        <span></span>
-      </a>
-    </div>
-  </nav>
-<!-- end of navbar -->
+  <div data-include="navbar.html"></div>
 
   <main id="main">
 
@@ -90,12 +58,17 @@
         <div class="container">
           <div class="row align-items-stretch">
             <div class="col-md-8" data-aos="fade-up">
-              <img src="assets/img/itnor_titleCard.png" alt="for The Daily 1" class="img-fluid">
+              <figure>
+                <img src="assets/img/itnor_titleCard.png" alt="for The Daily 1" class="img-fluid">
+                <figcaption>
+                  <p class="mb-4 caption"><span class="text-muted">Mock title card</span></p>
+                </figcaption>
+
+              </figure>
             </div>
             <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
               <div class="sticky-content">
                 <!-- <h3 class="h3">Ashbolt</h3> -->
-                <p class="mb-4"><span class="text-muted">Mock title card</span></p>
 
                 <!-- Code to add a longer description <div class="mb-5">
                   <p>Description here</p>
@@ -104,19 +77,24 @@
             </div>
           </div>
         </div>
-        
-       <!-- Makeda ref --> 
+
+        <!-- Makeda ref -->
         <div class="site-section pb-0">
           <div class="container">
             <div class="row align-items-stretch">
               <div class="col-md-8" data-aos="fade-up">
-                <img src="assets/img/makedaRef.png" alt="Makeda Ref" class="img-fluid">
+                <figure>
+                  <img src="assets/img/makedaRef.png" alt="Makeda Ref" class="img-fluid">
+                  <figcaption>
+                    <p class="mb-4 caption"><span class="text-muted">Reference of the main character</span></p>
+                  </figcaption>
+
+                </figure>
               </div>
               <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
                 <div class="sticky-content">
                   <!-- <h3 class="h3">Red</h3> -->
-                  <p class="mb-4"><span class="text-muted">Reference of the main character</span></p>
-  
+
                   <!-- Code to add a longer description <div class="mb-5">
                     <p>Description here</p>
                   </div> -->
@@ -130,13 +108,18 @@
             <div class="container">
               <div class="row align-items-stretch">
                 <div class="col-md-8" data-aos="fade-up">
-                  <img src="assets/img/makeda_sketches.png" alt="makeda explorations" class="img-fluid">
+                  <figure>
+                    <img src="assets/img/makeda_sketches.png" alt="makeda explorations" class="img-fluid">
+                    <figcaption>
+                      <p class="mb-4 caption"><span class="text-muted">Explorations of the main character</span></p>
+                    </figcaption>
+
+                  </figure>
                 </div>
                 <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
                   <div class="sticky-content">
                     <!--<h3 class="h3"> drawing title </h3> -->
-                    <p class="mb-4"><span class="text-muted">Explorations of the main character</span></p>
-    
+
                     <!-- Code to add a longer description <div class="mb-5">
                       <p>Description here</p>
                     </div> -->
@@ -146,24 +129,29 @@
             </div>
 
             <!-- MJ Maye Dae -->
-          <div class="site-section pb-0">
-            <div class="container">
-              <div class="row align-items-stretch">
-                <div class="col-md-8" data-aos="fade-up">
-                  <img src="assets/img/minJ_maye_dae.png" alt="Character explorations" class="img-fluid">
-                </div>
-                <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
-                  <div class="sticky-content">
-                    <!--<h3 class="h3"> drawing title </h3> -->
-                    <p class="mb-4"><span class="text-muted">Miscellaneous character explorations</span></p>
-    
-                    <!-- Code to add a longer description <div class="mb-5">
+            <div class="site-section pb-0">
+              <div class="container">
+                <div class="row align-items-stretch">
+                  <div class="col-md-8" data-aos="fade-up">
+                    <figure>
+                      <img src="assets/img/minJ_maye_dae.png" alt="Character explorations" class="img-fluid">
+                      <figcaption>
+                        <p class="mb-4 caption"><span class="text-muted">Miscellaneous character explorations</span></p>
+                      </figcaption>
+
+                    </figure>
+                  </div>
+                  <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                    <div class="sticky-content">
+                      <!--<h3 class="h3"> drawing title </h3> -->
+
+                      <!-- Code to add a longer description <div class="mb-5">
                       <p>Description here</p>
                     </div> -->
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
     </section>
 
@@ -188,14 +176,15 @@
           </div>
         </div>
         <div class="col-sm-6 social text-md-end">
-          <a href="#"><span class="bi bi-twitter"></span></a>
-          <a href="#"><span class="bi bi-instagram"></span></a>
+          <a href="https://twitter.com/saewiam"><span class="bi bi-twitter"></span></a>
+          <a href="https://www.instagram.com/saewiam"><span class="bi bi-instagram"></span></a>
         </div>
       </div>
     </div>
   </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
