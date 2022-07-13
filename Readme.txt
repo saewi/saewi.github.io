@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Portfolio for ARL 2022 program, template from source below:
 
 Template Name: MyPortfolio
 Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
