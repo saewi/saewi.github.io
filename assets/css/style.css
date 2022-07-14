@@ -456,3 +456,18 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   text-align: center;
   padding-top: 1%;
 }
+
+.custom1 {
+  width: 35%;
+}
+
+.custom2 {
+  width: 65%;
+}
+
+.img-fluid {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  border: 1.5px solid;
+}
