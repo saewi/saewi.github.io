@@ -471,3 +471,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   max-width: 75%;
   border: 1.5px solid;
 }
+
+.img-fluid-thumb {
+  max-width: 100%;
+  height: auto;
+}
